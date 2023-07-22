@@ -1,0 +1,1 @@
+(()=>{"use strict";document.writeln("ES6 modules!"),document.writeln("sum = 5"),document.writeln("multiply from index.js = 40"),document.writeln("multiply from math = "+3.14*5)})();

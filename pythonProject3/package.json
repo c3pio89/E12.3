@@ -1,0 +1,26 @@
+{
+  "name": "e12.3",
+  "version": "1.0.0",
+  "description": "studingproject",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "Taras",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "pug": "^3.0.2",
+    "pug-loader": "^1.0.2",
+    "pug-plain-loader": "^1.1.0",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "autoprefixer": "10.4.5"
+  }
+}
