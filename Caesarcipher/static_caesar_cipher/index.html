@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шифр Цезаря</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Шифр Цезаря</h1>
+
+    <!-- Шифрование -->
+    <div class="encryption">
+        <h2>Шифрование</h2>
+        <textarea id="inputEncrypt" placeholder="Введите текст для шифрования"></textarea>
+        <label for="shiftValue">Число смещений (n): </label>
+        <input type="number" id="shiftValue" min="1" value="1">
+        <button onclick="encryptText()">Зашифровать</button>
+        <h3>Результат:</h3>
+        <textarea id="outputEncrypt" readonly></textarea>
+    </div>
+
+    <!-- Дешифрование -->
+    <div class="decryption">
+        <h2>Дешифрование</h2>
+        <textarea id="inputDecrypt" placeholder="Введите текст для дешифрования"></textarea>
+        <label for="shiftValueDecrypt">Число смещений (n): </label>
+        <input type="number" id="shiftValueDecrypt" min="1" value="1">
+        <button onclick="decryptText()">Дешифровать</button>
+        <h3>Результат:</h3>
+        <textarea id="outputDecrypt" readonly></textarea>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
